@@ -43,7 +43,7 @@ public class TblProductoImp implements IProducto{
 
 	@Override
 	public List<TblProductosusti> ListarProducto() {
-		 EntityManagerFactory em = Persistence.createEntityManagerFactory("LpII_Susti_RivadeneyraTitoLuis");
+		 EntityManagerFactory em = Persistence.createEntityManagerFactory("LpII_Susti_RivadeneyraLuis");
 	        EntityManager emanager = em.createEntityManager();
 	        emanager.getTransaction().begin();
 	        List<TblProductosusti> listaProducto = emanager.createQuery("select c from TblProductosusti c", TblProductosusti.class).getResultList();
