@@ -13,7 +13,7 @@ public class TblProductoImp implements IProducto{
 
 	@Override
 	public void RegistrarProducto(TblProductosusti producto) {
-		EntityManagerFactory em = Persistence.createEntityManagerFactory("LpII_Susti_RivadeneyraTitoLuis");
+		EntityManagerFactory em = Persistence.createEntityManagerFactory("LpII_Susti_RivadeneyraLuis");
 		EntityManager emanager = em.createEntityManager();
 		emanager.getTransaction().begin();
 		emanager.persist(producto);
