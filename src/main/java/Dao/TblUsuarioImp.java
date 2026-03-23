@@ -8,7 +8,7 @@ import Interfaces.IUsuario;
 import model.TblUsuariosusti;
 
 public class TblUsuarioImp implements IUsuario {
-    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("LpII_Susti_RivadeneyraTitoLuis");
+    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("LpII_Susti_RivadeneyraLuis");
 
     @Override
     public void RegistrarUsuario(TblUsuariosusti usuario) {
