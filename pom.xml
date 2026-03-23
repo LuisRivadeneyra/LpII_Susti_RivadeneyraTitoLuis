@@ -63,7 +63,7 @@
   </dependencies>
 
   <build>
-    <finalName>LpII_Susti_RivadeneyraTitoLuis</finalName>
+    <finalName>LpII_Susti_RivadeneyraLuis</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
