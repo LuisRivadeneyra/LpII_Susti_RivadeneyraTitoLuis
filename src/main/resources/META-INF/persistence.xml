@@ -5,7 +5,7 @@
         <class>model.TblUsuariosusti</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/bdrivadeneyratitosusti"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/bdrivadeneyrasusti"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
             <property name="javax.persistence.jdbc.password" value=""/>
             <property name="javax.persistence.schema-generation.database.action" value="update"/>
