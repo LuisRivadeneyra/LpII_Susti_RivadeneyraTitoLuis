@@ -20,7 +20,7 @@ public class ControladorUsuarios extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String usuario = request.getParameter("usuariosusti");
-        String password = request.getParameter("passwordsusti");
+        String password = request.getParameter("passwordsustii");
 
         // Verificar usuario y contraseña (puedes implementar esto según tu lógica)
         // Aquí se omite la verificación por simplicidad en el ejemplo
