@@ -51,6 +51,9 @@ public class ControladorProducto extends HttpServlet {
         TblProductosusti producto = new TblProductosusti();
         TblProductoImp crud = new TblProductoImp();
 
+		//Borrar luego
+		double precioTotales=0;
+		
         double precioVenta = 0;
         double precioCompra = 0;
         try {
@@ -76,6 +79,7 @@ public class ControladorProducto extends HttpServlet {
         //redireccionamos hacia el listado de clientes...
         request.getRequestDispatcher("/ListadoProductos.jsp").forward(request, response);
         
+		
         
         
 
