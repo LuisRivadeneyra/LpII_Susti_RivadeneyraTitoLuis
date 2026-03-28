@@ -53,6 +53,7 @@ public class ControladorProducto extends HttpServlet {
 
 		//Borrar luego
 		double precioTotales=0;
+		int cantidad=1;
 		
         double precioVenta = 0;
         double precioCompra = 0;
